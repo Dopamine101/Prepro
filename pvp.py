@@ -1,0 +1,23 @@
+"""Wakarimasennnnnn"""
+def date():
+    """print"""
+    name = input()
+    hp1 = int(input())
+    atk = int(input())
+    amr = int(input())
+    name2 = input()
+    hp2 = int(input())
+    atk2 = int(input())
+    amr2 = int(input())
+    print("##############")
+    print("# %10s #" %name)
+    print("# HP:%7s #" %("O" * hp1))
+    print("# ATk || DEF #")
+    print("# %04d||%04d #"%(atk, amr))
+    print("############## VS ##############")
+    print("                  # %10s #" %name2)
+    print("                  # HP:%7s #" %("O" * hp2))
+    print("                  # ATk || DEF #")
+    print("                  # %04d||%04d #"%(atk2, amr2))
+    print("                  ##############")
+date()
